@@ -14,6 +14,8 @@
 		8938BA5628EF99F3009ADB45 /* Dynamic_Island___Custom_ProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8938BA5528EF99F3009ADB45 /* Dynamic_Island___Custom_ProgressTests.swift */; };
 		8938BA6028EF99F3009ADB45 /* Dynamic_Island___Custom_ProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8938BA5F28EF99F3009ADB45 /* Dynamic_Island___Custom_ProgressUITests.swift */; };
 		8938BA6228EF99F3009ADB45 /* Dynamic_Island___Custom_ProgressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8938BA6128EF99F3009ADB45 /* Dynamic_Island___Custom_ProgressUITestsLaunchTests.swift */; };
+		8938BA7028EFB5F1009ADB45 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8938BA6F28EFB5F1009ADB45 /* Home.swift */; };
+		8938BA7328EFBC66009ADB45 /* ProgressConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8938BA7228EFBC66009ADB45 /* ProgressConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8938BA5B28EF99F3009ADB45 /* Dynamic Island - Custom ProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic Island - Custom ProgressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8938BA5F28EF99F3009ADB45 /* Dynamic_Island___Custom_ProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dynamic_Island___Custom_ProgressUITests.swift"; sourceTree = "<group>"; };
 		8938BA6128EF99F3009ADB45 /* Dynamic_Island___Custom_ProgressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dynamic_Island___Custom_ProgressUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		8938BA6F28EFB5F1009ADB45 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8938BA7228EFBC66009ADB45 /* ProgressConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				8938BA4428EF99F2009ADB45 /* Dynamic_Island___Custom_ProgressApp.swift */,
+				8938BA7128EFBC57009ADB45 /* Model */,
+				8938BA6E28EFB5D3009ADB45 /* View */,
 				8938BA4628EF99F2009ADB45 /* ContentView.swift */,
 				8938BA4828EF99F3009ADB45 /* Assets.xcassets */,
 				8938BA4A28EF99F3009ADB45 /* Preview Content */,
@@ -125,6 +131,22 @@
 				8938BA6128EF99F3009ADB45 /* Dynamic_Island___Custom_ProgressUITestsLaunchTests.swift */,
 			);
 			path = "Dynamic Island - Custom ProgressUITests";
+			sourceTree = "<group>";
+		};
+		8938BA6E28EFB5D3009ADB45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8938BA6F28EFB5F1009ADB45 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8938BA7128EFBC57009ADB45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8938BA7228EFBC66009ADB45 /* ProgressConfig.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8938BA4728EF99F2009ADB45 /* ContentView.swift in Sources */,
+				8938BA7028EFB5F1009ADB45 /* Home.swift in Sources */,
+				8938BA7328EFBC66009ADB45 /* ProgressConfig.swift in Sources */,
 				8938BA4528EF99F2009ADB45 /* Dynamic_Island___Custom_ProgressApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

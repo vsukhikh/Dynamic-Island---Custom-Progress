@@ -3,7 +3,7 @@
 import SwiftUI
 
 @main
-struct ___PACKAGENAME:identifier___App: App {
+struct Dynamic_Island___Custom_ProgressApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
